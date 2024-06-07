@@ -1,0 +1,45 @@
+body{
+    /* coloca espaços */
+    padding:0px;
+    margin: 0px;
+    background-color: rgb(207, 183, 230);
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* hv acompanha diferecionamento da tela */
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.card{
+    /* alpha (ultimo elemento) é opacidade */
+    background-color: rgba(20, 19, 19, 0.466);
+    padding: 40px;
+    border-radius: 20px;
+    width: 280px;
+}
+.card-header{
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.card-content label{
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 20px;
+}
+
+.card-content input{
+    margin-top: 10px;
+    padding: 0, 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+}
+.card-content-area{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}

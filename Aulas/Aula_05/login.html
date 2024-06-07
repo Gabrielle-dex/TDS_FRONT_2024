@@ -1,29 +1,40 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    <div>
-        <!-- formu formulario -->
-        <form action="#">
-            <div>
+
+    <!-- formu formulario -->
+    <div id="login">
+        <form class="card" action="#">
+            <div class="card-header">
                 <h2>Login</h2>
             </div>
-            <div>
-                <label for= "">Usuário</label>
-                <!--entrada tipo texto
+            <div class="card-content">
+                <div class="card-content-area">
+                    <label for="">Usuário</label>
+                    <!--entrada tipo texto
                  caso colocar numb vai aceitar só numeros-->
-                <input type = "text">
+                    <input type="text">
+                </div>
+                <div class="card-content-area">
+                    <label for="">Senha</label>
+                    <input type="password">
+                </div>
             </div>
-                <label for = "">Senha</label>
-                <input type = "password">
             <div>
-                    <!--substuir o que está escrito value-->
-                    <input type="submit" value="Entrar">
-                    <a href="#"> Esqueceu a senha?</a> 
+                <!--substuir o que está escrito value-->
+                <input type="submit" value="Entrar">
+                <a href="#"> Esqueceu a senha?</a>
             </div>
         </form>
     </div>
+
 </body>
+
 </html>
+<!-- #ID    / 
+    .Class /global -->
