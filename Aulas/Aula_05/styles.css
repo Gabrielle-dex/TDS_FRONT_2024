@@ -43,3 +43,8 @@ body{
     flex-direction: column;
     padding: 10px 0px;
 }
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+}
