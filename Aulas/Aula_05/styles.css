@@ -30,6 +30,9 @@ body{
     font-size: 20px;
 }
 
+.card-content-area input {
+    color: #ffffff;
+}
 .card-content input{
     margin-top: 10px;
     padding: 0, 5px;
@@ -47,4 +50,28 @@ body{
 .card-footer{
     display: flex;
     flex-direction: column;
+}
+
+.card-footer .submit{
+    /*Largura */
+    width: 100%;
+    /*Altura*/
+    height: 40px;
+    background-color: rgb(126, 0, 122);
+    /*remover as bordas */
+    border: none;
+    color:#e1e1e1;
+    text-transform: uppercase;
+    margin:10px 0px;
+    cursor: pointer;
+}
+
+.card-footer a{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color:#fff;
+    text-decoration: none; 
+    margin-top: 10px;
 }
