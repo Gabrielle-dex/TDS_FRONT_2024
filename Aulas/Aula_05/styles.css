@@ -52,36 +52,6 @@ body{
     flex-direction: column;
 }
 
-.card-footer .submit{
-    /*Largura */
-    width: 100%;
-    /*Altura*/
-    height: 40px;
-    background-color: rgb(126, 0, 122);
-    /*remover as bordas */
-    border: none;
-    color:#e1e1e1;
-    text-transform: uppercase;
-    margin:10px 0px;
-    cursor: pointer;
-}
-   /*  NÃO FUNCIONA
-   box-shadow: inset 0 0 0 0 #D80286;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s; 
-}
-
-.card-footer .button_slide_left{
-        box-shadow: inset 0 0 0 50px #D80286;
-}
-
-#outer {
-    width: 364px;
-    margin: 50px auto 0 auto;
-    text-align: center;
-  }
- */
 .card-footer a{
     text-align: center;
     font-size: 12px;
@@ -90,4 +60,26 @@ body{
     color:#fff;
     text-decoration: none; 
     margin-top: 10px;
+}
+
+
+.button_slide {
+    text-align: center;
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+.slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
 }
