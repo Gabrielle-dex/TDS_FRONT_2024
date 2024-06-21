@@ -5,7 +5,7 @@ body{
     background-color: rgb(207, 183, 230);
 }
 
-#login{
+#login{    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@ body{
 
 .card-footer a{
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
     opacity: 0.8;
     color:#fff;
