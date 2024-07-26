@@ -15,8 +15,10 @@ ul {
 main{
 background-color: pink;
 
+
 }
 
+/* modificar cor dos botões quando clicar cor e seta*/
   /*  testar com color
      input:valid{
         background-color: antiquewhite;
@@ -25,4 +27,7 @@ background-color: pink;
     input:invalid{
         background-color: white;
     } */
-    
+.button {
+     text-align: center;
+     cursor: pointer;
+    }    
