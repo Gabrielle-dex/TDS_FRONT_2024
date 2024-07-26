@@ -40,7 +40,7 @@ function carregar_dados (){
     });
 
 }
-
+carregar_dados();
 function adicionar(){
     if (input.value !== ""){
         //criar li

@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+}
+.title_c {
+    text-align: center;
+}
+
+.view {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+
+main{
+background-color: pink;
+
+}
+
+  /*  testar com color
+     input:valid{
+        background-color: antiquewhite;
+    }
+
+    input:invalid{
+        background-color: white;
+    } */
+    
