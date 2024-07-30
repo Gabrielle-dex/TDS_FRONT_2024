@@ -2,3 +2,5 @@
 eventos
 += */
 /* evento para limpar input.innerHTML=""*/
+
+/* calculos calcular*/
