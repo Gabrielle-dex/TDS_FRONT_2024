@@ -2,27 +2,28 @@
 // && E
 // posição = p
 // ultimo valor clicado = uvc
-
+//const regra = [0,1,2,3,4,5,6,7,8,];
 const tabuleiro = document.getElementsByClassName("campo");
 const resultado = document.getElementsByClassName("resultado");
 
 console.log(resultado);
 
-//const regra = [0,1,2,3,4,5,6,7,8,];
+var uvc = "";
 
 function validador (p){
 
     if(tabuleiro[p].innerHTML == ""){
     
-     if(uvc = "O"){
-        tabuleiro[p].innerHTML = "O"
-        uvc = "X";
-     } else{
-       tabuleiro[p].innerHTML = "X"
-       uvc ="O";
-     }
-     valida_tabuleiro("x");
-     valida_tabuleiro("O");
+        if(uvc = "O"){
+            tabuleiro[p].innerHTML = "O";
+            uvc = "X";
+        } else{
+            tabuleiro[p].innerHTML = "X";
+            uvc ="O";
+        }
+         // uma forma de fazer
+         //   valida_tabuleiro("x");
+         //   valida_tabuleiro("O");
     }
 // || ou
     if(valida_tabuleiro ("X") || valida_tabuleiro("O")){
