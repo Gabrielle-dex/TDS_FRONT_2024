@@ -12,7 +12,7 @@
     justify-content: center;
 }
 
-.campo {
+.campo{
     display: flex;
     align-items: center;
     height: 100px;
@@ -21,8 +21,13 @@
     margin: 5px;
     cursor: pointer;
 }
+.campo{
+    color: white;
+    font-size:50px;
+}
 /*.campo span{
     color:white;
     font-size:50px;
 }
 */
+
