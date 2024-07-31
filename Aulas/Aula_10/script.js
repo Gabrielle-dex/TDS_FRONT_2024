@@ -4,7 +4,7 @@
 // ultimo valor clicado = uvc
 
 const tabuleiro = document.getElementsByClassName("campo");
-const resultado = documen.getElementsByClassName("resultado");
+const resultado = document.getElementsByClassName("resultado");
 
 console.log(resultado);
 
@@ -14,12 +14,12 @@ function validador (p){
 
     if(tabuleiro[p].innerHTML == ""){
     
-     if(uvc = "0"){
-        tabuleiro[p].innerHTML = "0";
+     if(uvc = "O"){
+        tabuleiro[p].innerHTML = "O"
         uvc = "X";
      } else{
-       tabuleiro[p].innerHTML = "1";
-       uvc ="O"
+       tabuleiro[p].innerHTML = "X"
+       uvc ="O";
      }
      valida_tabuleiro("x");
      valida_tabuleiro("O");
@@ -28,6 +28,7 @@ function validador (p){
     if(valida_tabuleiro ("X") || valida_tabuleiro("O")){
         // ? if
         // se não :
+        // if ternário
         resultado.innerHTML = `o ganhor foi: ${uvc == "X" ? "O" : "X"}`; 
 
     }

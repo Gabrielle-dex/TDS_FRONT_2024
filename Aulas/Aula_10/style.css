@@ -1,15 +1,14 @@
+.cabecalho{
+    text-align: center;
+    text-transform: uppercase
+}
 .tabuleiro{
     display: flex;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .rodape{
-    text-align: center;
-}
-
-.tabuleiro{
-    display: flex;
-    justify-content: center;
+    text-align: center
 }
 
 .campo{
@@ -20,14 +19,11 @@
     background-color: blueviolet;
     margin: 5px;
     cursor: pointer;
-}
-.campo{
-    color: white;
-    font-size:50px;
+    color:#FFFFFF;
+    font-size:50px
 }
 /*.campo span{
     color:white;
     font-size:50px;
 }
 */
-
