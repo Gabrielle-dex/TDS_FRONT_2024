@@ -14,26 +14,37 @@ function validador (p){
 
     if(tabuleiro[p].innerHTML == ""){
     
-        if(uvc = "O"){
+        if(uvc == "O"){
             tabuleiro[p].innerHTML = "O";
             uvc = "X";
         } else{
             tabuleiro[p].innerHTML = "X";
-            uvc ="O";
+            uvc == "O";
         }
-         // uma forma de fazer
-         //   valida_tabuleiro("x");
-         //   valida_tabuleiro("O");
+         // uma forma de fazer para validar tabuleiro
+         // valida_tabuleiro("x");
+         // valida_tabuleiro("O");
     }
 // || ou
     if(valida_tabuleiro ("X") || valida_tabuleiro("O")){
         // ? if
         // se não :
         // if ternário
-        resultado.innerHTML = `o ganhor foi: ${uvc == "X" ? "O" : "X"}`; 
-
-    }
-}
+        //resultado.innerHTML = `o ganhor foi: ${uvc == "X" ? "O" : "X"}`; 
+        if (uvc == "X"){
+            resultado.innerHTML = "O ganhador foi O";
+            vitoria0++;
+            resultado_o.innerHTML = "O: " + vitoriaO
+        } else {
+           resultado.innerHTML = "O ganhador foi X";
+            vitoriaX++;
+            resultado_x.innerHTML = "X: " + vitoriaX
+        }
+        block_game = true;
+    } else{
+            console.log("EMPATE");
+        }
+    }   
 //validadores
 // (tabuleiro[0].innerHTML == tabuleiro[1].innerHTML && tabuleiro[0].innerHTML == tabuleiro[2].innerHTML) ideia de formato
 function valida_tabuleiro(valor){
@@ -75,4 +86,4 @@ function valida_tabuleiro(valor){
             console.log("Fechou diagonal 2");
             return true;
         }
-    }
+}
