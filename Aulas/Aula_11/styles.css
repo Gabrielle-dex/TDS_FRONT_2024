@@ -1,0 +1,66 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.nome{
+    justify-content: center;
+    display: flex;
+    background-color: pink;
+    text-transform: uppercase;
+    font-size: 2rem; /*tamanho da fonte*/
+    color:rgb(45, 1, 16)
+}
+
+.campo{
+    background-color: rgb(255, 213, 235);
+    height: 45px;
+    flex-direction: column;
+    width: 100px; /*Largura do elemento*/
+    color:brown; 
+    padding: 0px 20px;
+}
+
+.container{
+    display: flex;
+}
+
+/*Circular entre o site*/
+nav{
+    background-color: rgb(255, 213, 235);
+    height: 600px;
+    width: 10%;
+}
+.area{
+    width: 90%;
+   background-color: rgba(198, 84, 156, 0.404);
+}
+.sobre, .escolaridade, .profissional{
+    background-color: rgb(174, 41, 127);
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*Imagem redonda com fundo*/
+
+.redonda{
+    width: 100px;
+    /*Altura*/
+    height: 100px;
+    /*borda raio*/
+    border-radius: 100%;
+    border: 5px solid rgb(104, 0, 76);
+}
+
+.redes{
+    justify-content: center;
+    align-items: center; 
+    display: flex;  
+}
+
+hr{
+    background-color: rgba(80, 42, 116, 0.183);
+}
