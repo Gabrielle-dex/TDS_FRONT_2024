@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
+
 <body>
     <main>
         <div>
@@ -14,5 +17,22 @@
             <h1>Conteudo Profissional</h1>
         </div>
     </main>
+
+
+    <form action="#">
+        <input type="text" placeholder="Nome" id="nome" >
+        <input type="email" placeholder="E-mail" id="email" >
+        <button onclick="enviar()">Enviar</button>
+    </form>
+
+    <div id="mensagem_confirmacao">
+
+        <!-- uma ideia porém acaba deixando a mensagem fixa
+            Muito obrigado(a), senhor(a) : <span></span>
+            Acabamos de enviar um e-mail para: <span></span> -->
+    </div>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
